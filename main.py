@@ -166,11 +166,13 @@ class MainWindow(QMainWindow):
         menu.addAction(quit_action)
         help_menu = self.menuBar().addMenu("Aide")
         about = QAction("À propos", self)
-        # Show application, technology, and migration information from the Help menu.
-        about.triggered.connect(lambda: QMessageBox.information(self, "OSINT Graph Desktop 1.0",
+        # Show the application version, license summary, and migration information from the Help menu.
+        about.triggered.connect(lambda: QMessageBox.information(self, "OSINT Graph Desktop 1.0.1",
             "Application locale : Python, Qt, SQLite, React et Cytoscape.\n"
             "Importez vos anciens graphes avec les exports JSON de la version web.\n"
-            "Les comptes de cette installation sont indépendants de ceux de la version web."))
+            "Les comptes de cette installation sont indépendants de ceux de la version web.\n\n"
+            "Licence : utilisation, modification et redistribution gratuites ; vente interdite.\n"
+            "Voir LICENSE pour les conditions et THIRD_PARTY.md pour les composants tiers."))
         help_menu.addAction(about)
         self.view.loadFinished.connect(self._loaded)
         self.view.load(QUrl.fromLocalFile(str(web_root / "index.html")))

@@ -12,6 +12,13 @@ Conserver le dossier _internal a cote de OSINTGraph.exe.
 Aucune installation de Python, Node.js, Docker ou Neo4j n'est necessaire.
 Le programme fonctionne sans connexion Internet.
 
+LICENCE DE L'APPLICATION
+Utilisation, modification et redistribution gratuites autorisees.
+Vente du logiciel et de ses versions modifiees interdite.
+Conserver LICENSE et les mentions de copyright avec toute copie distribuee.
+Le texte complet et les conditions figurent dans LICENSE.
+Les composants tiers conservent leurs licences propres (THIRD_PARTY.md).
+
 Les donnees sont sauvegardees automatiquement dans :
 %LOCALAPPDATA%\OSINTGraph\osint-graph.sqlite3
 

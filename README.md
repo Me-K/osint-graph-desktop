@@ -4,7 +4,34 @@ Version de bureau autonome et hors ligne d'OSINT Graph. Ce dépôt contient
 l'application Python et son interface dans `ui/`. La version web est maintenue
 séparément dans le dépôt `osint-graph-web`.
 
+## Licence du code applicatif
+
+Le code de l'application est distribué sous la licence personnalisée
+[OSINT Graph Desktop — Free Redistribution, No Sale License](LICENSE).
+
+- Utiliser, étudier, modifier et redistribuer gratuitement le logiciel est
+  autorisé, y compris au sein d'une entreprise.
+- Vendre le logiciel ou une version modifiée, facturer sa licence ou imposer
+  un paiement pour obtenir une copie est interdit.
+- Les copies redistribuées doivent conserver la licence et les mentions de
+  copyright. Les versions modifiées doivent être identifiées comme telles.
+- Les prestations distinctes de support, formation, installation ou
+  développement peuvent être facturées si elles ne constituent pas un achat
+  obligatoire pour obtenir le logiciel distribué ou exercer les droits accordés.
+- Les modifications privées n'ont pas à être publiées. Le dépôt GitHub est
+  public ; la licence permet aux destinataires de partager gratuitement leurs
+  copies conformément à ses conditions.
+
+L'interdiction de vente signifie qu'il ne s'agit pas d'une licence open source
+au sens de l'[Open Source Initiative](https://opensource.org/osd).
+Ce résumé ne remplace pas le texte de [LICENSE](LICENSE).
+Les dépendances conservent leurs licences propres, décrites dans
+[THIRD_PARTY.md](THIRD_PARTY.md).
+
 ## Démarrer sous Windows
+
+La [dernière release GitHub](https://github.com/Me-K/osint-graph-desktop/releases/latest)
+propose le ZIP portable Windows, les sources et leurs empreintes SHA-256.
 
 Double-cliquer sur **`start.bat`** dans ce dossier, ou directement sur
 **`dist/OSINTGraph/OSINTGraph.exe`**.

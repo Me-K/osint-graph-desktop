@@ -1,5 +1,10 @@
 # Composants embarqués
 
+Le fichier [LICENSE](LICENSE) à la racine décrit les droits accordés sur le
+code applicatif d'OSINT Graph Desktop. Sa restriction de vente ne remplace pas
+les licences des composants tiers et ne restreint pas les droits que ces
+licences accordent sur leurs composants respectifs.
+
 Le dossier `licenses` (dans `_internal/licenses` dans la distribution portable)
 contient les textes livrés par les dépendances installées et leurs versions.
 
