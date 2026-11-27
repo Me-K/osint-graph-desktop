@@ -1,0 +1,46 @@
+.venv/
+ui/node_modules/
+build/
+dist/
+__pycache__/
+*.pyc
+*.sqlite3*
+*.log
+test-results/
+
+# Generated UI resources and dependency notices are recreated by build.ps1.
+web/
+licenses/
+node_modules/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local credentials, account data, exports, and backups must stay on this computer.
+.env
+.env.*
+!.env.example
+*.local
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.pem
+*.key
+*.p12
+*.pfx
+exports/
+backups/
+*.zip
+
+# Local editor and tool settings.
+.codex/
+.agents/
+.aws/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+OSINT GRAPH DESKTOP - WINDOWS 64 BITS
+
+1. Extraire tout le dossier OSINTGraph dans un emplacement de votre choix.
+2. Double-cliquer sur OSINTGraph.exe.
+3. Creer le compte administrateur au premier lancement.
+
+L'accueil propose Mes graphes, Mon compte et, pour les administrateurs,
+Gestion des comptes. Les droits des graphes se reglent dans Acces aux graphes.
+Depuis le studio, le bouton Accueil permet de retrouver ces rubriques.
+
+Conserver le dossier _internal a cote de OSINTGraph.exe.
+Aucune installation de Python, Node.js, Docker ou Neo4j n'est necessaire.
+Le programme fonctionne sans connexion Internet.
+
+Les donnees sont sauvegardees automatiquement dans :
+%LOCALAPPDATA%\OSINTGraph\osint-graph.sqlite3
+
+Pour reprendre un graphe existant : exporter le JSON depuis la version web,
+puis utiliser l'import JSON de cette application.
+
+Fichier > Sauvegarder toute la base : sauvegarde des graphes et comptes locaux.
+Fichier > Emplacement des donnees : chemin exact de la base.
+
+Le README.md contient les instructions detaillees et de reconstruction.
