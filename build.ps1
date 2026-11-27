@@ -64,6 +64,7 @@ try {
     throw
 }
 Copy-Item -LiteralPath LICENSE,README.md,THIRD_PARTY.md,VALIDATION.md -Destination dist/OSINTGraph
+Copy-Item -LiteralPath docs -Destination dist/OSINTGraph -Recurse
 Copy-Item -LiteralPath PORTABLE.txt -Destination dist/OSINTGraph/LIRE-MOI.txt
 if (-not $NoArchive) {
     & $desktopPython -c "import hashlib,pathlib,shutil; p=pathlib.Path(shutil.make_archive('dist/OSINTGraph-Windows-x64', 'zip', 'dist', 'OSINTGraph')); p.with_suffix('.zip.sha256').write_text(hashlib.file_digest(p.open('rb'),'sha256').hexdigest()+'  '+p.name+'\n', encoding='ascii')"
